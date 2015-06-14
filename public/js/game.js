@@ -55,8 +55,8 @@ define(function() {
 							'tausta');
 					//This sets it in the middle
 					//bgtile.anchor.setTo(0.5,0.5);
-					bgtile.tileScale.y = 0.35;
-					bgtile.tileScale.x = 0.35;
+					bgtile.tileScale.y = 0.7;
+					bgtile.tileScale.x = 0.7;
 
 					// Invert scale.x to flip left/right
 					//bgtile.scale.x *= -1;

@@ -16,7 +16,7 @@ define(function() {
 			},
 			update : function() {
 		        if (game.input.keyboard.isDown(Phaser.Keyboard.SPACEBAR) ||
-		        	game.input.pointer.justPressed())
+		        	game.input.pointer1.isDown)
 		        {
 	            	game.state.start('play', true, true);
 		        }

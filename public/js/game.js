@@ -153,7 +153,7 @@ define(function() {
 				game.physics.arcade.collide(player, this.obstacles);
 
 		        if (game.input.keyboard.isDown(Phaser.Keyboard.SPACEBAR) ||
-		        	game.input.pointer.justPressed())
+		        	game.input.pointer1.isDown)
 		        {
 					//if ( player.body.onFloor() ) {
 					if(player.body.velocity.y === 0) {

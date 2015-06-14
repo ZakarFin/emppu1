@@ -15,7 +15,8 @@ define(function() {
 					//sprite.scale.setTo(scales.x * 0.90, scales.y * 0.90);
 			},
 			update : function() {
-		        if (game.input.keyboard.isDown(Phaser.Keyboard.SPACEBAR))
+		        if (game.input.keyboard.isDown(Phaser.Keyboard.SPACEBAR) ||
+		        	game.input.pointer.justPressed())
 		        {
 	            	game.state.start('play', true, true);
 		        }

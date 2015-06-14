@@ -152,7 +152,8 @@ define(function() {
 				game.physics.arcade.collide(player, dragon);
 				game.physics.arcade.collide(player, this.obstacles);
 
-		        if (game.input.keyboard.isDown(Phaser.Keyboard.SPACEBAR))
+		        if (game.input.keyboard.isDown(Phaser.Keyboard.SPACEBAR) ||
+		        	game.input.pointer.justPressed())
 		        {
 					//if ( player.body.onFloor() ) {
 					if(player.body.velocity.y === 0) {

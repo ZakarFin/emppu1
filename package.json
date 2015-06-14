@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/ZakarFin/emppu1.git"
   },
   "keywords": [
     "node",
-    "heroku",
-    "express"
+    "phaser.js",
+    "game"
   ],
   "license": "MIT"
 }
